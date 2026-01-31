@@ -30,6 +30,11 @@ A modern, animated implementation of the classic **2048 puzzle game**, developed
   ## 📸 Gameplay Preview
 1)*User interface of the 2048 game showcasing score tracking and modern UI design.*
 <img width="651" height="942" alt="image" src="https://github.com/user-attachments/assets/7c7a44b7-2fd5-4458-a531-f47f8df54622" />
+=
+2)*Game Over screen displaying final score and restart option in the 2048 game.*
+
+<img width="642" height="937" alt="image" src="https://github.com/user-attachments/assets/fa4f35b8-13e4-4a55-b75f-8f54dda8bc37" />
+
 
 ---
 

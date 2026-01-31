@@ -51,3 +51,28 @@ Ensure Python 3.x is installed on your system.
 ```bash
 pip install pygame
 python main.py
+
+📂 Project Structure
+2048-Game/
+ ├── main.py
+ ├── best_score.txt
+ └── README.md
+
+📌 Future Enhancements
+
+Sound effects and background music
+
+Undo move functionality
+
+Mobile touch support
+
+AI-based autoplay mode
+
+👤 Author
+
+Himagiri Siddesh
+MCA Student | Python Developer | Game Development Enthusiast
+
+📜 License
+
+This project is licensed under the MIT License.

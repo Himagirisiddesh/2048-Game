@@ -26,7 +26,8 @@ A modern, animated implementation of the classic **2048 puzzle game**, developed
 - ⬅️ Left Arrow – Move tiles left  
 - ➡️ Right Arrow – Move tiles right  
 - ⬆️ Up Arrow – Move tiles up  
-- ⬇️ Down Arrow – Move tiles down  
+- ⬇️ Down Arrow – Move tiles down
+- <img width="651" height="942" alt="image" src="https://github.com/user-attachments/assets/fdd20168-a00e-473b-8caf-850f8454df4b" />
 
 ---
 
@@ -59,3 +60,4 @@ MCA Student | Python Developer | Game Development Enthusiast
 📜 License
 
 This project is licensed under the MIT License.
+

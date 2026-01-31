@@ -27,6 +27,9 @@ A modern, animated implementation of the classic **2048 puzzle game**, developed
 - ➡️ Right Arrow – Move tiles right  
 - ⬆️ Up Arrow – Move tiles up  
 - ⬇️ Down Arrow – Move tiles down
+  ## 📸 Gameplay Preview
+1)*User interface of the 2048 game showcasing score tracking and modern UI design.*
+<img width="651" height="942" alt="image" src="https://github.com/user-attachments/assets/7c7a44b7-2fd5-4458-a531-f47f8df54622" />
 
 ---
 
@@ -51,9 +54,7 @@ Undo move functionality
 Mobile touch support
 
 AI-based autoplay mode
-## 📸 Gameplay Preview
-1)*User interface of the 2048 game showcasing score tracking and modern UI design.*
-<img width="651" height="942" alt="image" src="https://github.com/user-attachments/assets/7c7a44b7-2fd5-4458-a531-f47f8df54622" />
+
 
 
 

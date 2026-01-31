@@ -50,3 +50,4 @@ Ensure Python 3.x is installed on your system.
 ### 2️⃣ Install Pygame
 ```bash
 pip install pygame
+python main.py

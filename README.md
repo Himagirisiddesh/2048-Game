@@ -133,6 +133,7 @@ Animated overlays:
 High-performance 2048 game featuring glassmorphism UI, particle effects, and procedural animations.
 
 <img src="https://github.com/user-attachments/assets/a6de582b-b11d-4eaa-8a8f-c37f50b709de" width="400"/>
+
 ❌ Game Over Screen
 
 Dynamic overlay with smooth transitions, layered UI effects, and persistent best score tracking.

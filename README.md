@@ -1,78 +1,165 @@
-# 🎮 2048 Game – Python & Pygame
+🎮 2048 Game (Advanced Pygame Edition)
 
-An interactive and visually enhanced version of the classic **2048 puzzle game**, built using **Python and Pygame**, featuring smooth animations, score tracking, and a modern responsive UI.
+A visually enhanced and feature-rich implementation of the classic **2048 game** built using **Python & Pygame**.
 
----
+This version goes beyond the basic game by integrating:
+- 🎨 Modern UI design  
+- 💥 Particle effects  
+- 🔊 Procedural audio system  
+- ⚡ Smooth animations  
 
-## ✨ Features
-- Smooth tile movement and merge animations  
-- Score and Best Score tracking  
-- Restart option after game over  
-- Gradient background with modern UI design  
-- Responsive window resizing  
-- Keyboard-based controls  
 
----
 
-## 🛠️ Technologies Used
-- **Python**
-- **Pygame**
+🚀 Features
 
----
+✨ Core Gameplay
+- Classic **4×4 grid-based mechanics**
+- Tile merging & score tracking
+- Win condition at **2048 tile**
+- Game over detection system
 
-## 🎯 Game Controls
-- ⬅️ Left Arrow – Move tiles left  
-- ➡️ Right Arrow – Move tiles right  
-- ⬆️ Up Arrow – Move tiles up  
-- ⬇️ Down Arrow – Move tiles down  
 
----
+🎨 Advanced UI/UX
 
-## 📸 Gameplay Preview
+- Smooth tile movement animations  
+- Dynamic scaling & pulse effects  
+- Gradient backgrounds with glowing panels  
+- Interactive buttons (hover + press effects)  
 
-### Gameplay Screen
-*User interface of the 2048 game showcasing score tracking and modern UI design.*
+ 🔊 Sound Effects System
+ 
+- Fully **procedural audio generation** (no external files)  
+- Sound feedback for:
+  - Move  
+  - Merge  
+  - Spawn  
+  - Win / Lose  
+  - Button clicks  
 
-<img width="651" height="942" alt="Gameplay Screenshot" src="https://github.com/user-attachments/assets/7c7a44b7-2fd5-4458-a531-f47f8df54622" />
 
-### Game Over Screen
-*Game Over screen displaying final score and restart option.*
+💥 Visual Effects
 
-<img width="642" height="937" alt="Game Over Screenshot" src="https://github.com/user-attachments/assets/fa4f35b8-13e4-4a55-b75f-8f54dda8bc37" />
+- Particle explosion on tile merge  
+- Floating score popups  
+- Animated background motion  
+- Win celebration effects  
 
----
+📊 Score System
 
-## ▶️ How to Run the Game
+- Real-time score tracking  
+- Persistent **Best Score** (stored locally)  
 
-### 1️⃣ Install Python
-Ensure Python 3.x is installed on your system.
+🖥️ Responsive Design
+- Resizable game window  
+- Adaptive board scaling  
 
-### 2️⃣ Install Pygame
-```bash
-pip install pygame
-python main.py
+🛠️ Tech Stack
+
+| Category | Technology |
+|--------|------------|
+| Language | Python |
+| Library | Pygame |
+| Architecture | OOP + Game Loop |
+| Audio | Procedural Synthesis |
 
 📂 Project Structure
-2048-Game/
- ├── main.py
- ├── best_score.txt
- └── README.md
 
-📌 Future Enhancements
+📦 2048-Game
+ ┣ 📜 main.py
+ ┣ 📜 best_score.txt
+ ┗ 📜 README.md
 
-Sound effects and background music
+▶️ How to Run
 
-Undo move functionality
+1️⃣ Install Dependencies
+pip install pygame
 
-Mobile touch support
+2️⃣ Run the Game
+python main.py
 
-AI-based autoplay mode
+🎮 Controls
 
-👤 Author
+Key	Action
+⬅️	Move Left
+➡️	Move Right
+⬆️	Move Up
+⬇️	Move Down
+R	Restart Game
+Mouse	UI interactions
 
-Himagiri Siddesh
-MCA Student | Python Developer | Game Development Enthusiast
+🧠 Game Logic Overview
+
+The board is represented as a 2D grid (4×4)
+Tiles slide in the selected direction
+Matching tiles merge into double value
+
+After each move:
+
+A new tile (2 or 4) spawns randomly
+
+Game ends when:
+
+No empty cells
+No possible merges
+🔊 Audio System
+
+This project uses a procedural sound engine instead of external audio files.
+
+It generates sound using:
+
+Sine waves
+Frequency modulation
+Exponential decay
+
+✅ Benefits
+
+Lightweight
+Fully self-contained
+Technically advanced
+
+🎨 UI Highlights
+
+Gradient background rendering
+Glass-like tile design
+Glow effects for best score
+
+Animated overlays:
+🏆 Win screen
+❌ Game Over screen
+
+📸 Screenshots
+
+🎮 Gameplay UI
+High-performance 2048 game featuring glassmorphism UI, particle effects, and procedural animations.
+
+<img src="https://github.com/user-attachments/assets/a6de582b-b11d-4eaa-8a8f-c37f50b709de" width="400"/>
+❌ Game Over Screen
+
+Dynamic overlay with smooth transitions, layered UI effects, and persistent best score tracking.
+
+<img src="https://github.com/user-attachments/assets/2fd67373-a7b7-4d01-b8d5-1a7b958296e6" width="400"/>
+
+📈 Future Improvements
+
+🔢 Larger grid sizes (5×5, 6×6)
+↩️ Undo functionality
+🌐 Leaderboard system
+📱 Mobile/touch support
+🤖 AI auto-play mode
 
 📜 License
 
 This project is licensed under the MIT License.
+
+🙌 Author
+
+Himagiri Siddesh M
+
+⭐ Show Your Support
+
+If you like this project:
+
+⭐ Star the repo
+🍴 Fork it
+📢 Share it
+

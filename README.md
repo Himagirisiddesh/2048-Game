@@ -1,166 +1,144 @@
-🎮 2048 Game (Advanced Pygame Edition)
+<div align="center">
 
-A visually enhanced and feature-rich implementation of the classic **2048 game** built using **Python & Pygame**.
+# 🎮 2048 Game — Advanced Pygame Edition
 
-This version goes beyond the basic game by integrating:
-- 🎨 Modern UI design  
-- 💥 Particle effects  
-- 🔊 Procedural audio system  
-- ⚡ Smooth animations  
+**A visually enhanced, feature-rich take on the classic 2048 game, built with Python & Pygame.**
 
+Goes well beyond the basic game with a modern UI, particle effects, a fully procedural audio system, and smooth animations throughout.
 
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Pygame](https://img.shields.io/badge/Pygame-game%20engine-brightgreen?logo=python&logoColor=white)](https://www.pygame.org/)
+[![Architecture](https://img.shields.io/badge/Architecture-OOP%20%2B%20Game%20Loop-blueviolet)](#)
+[![Audio](https://img.shields.io/badge/Audio-Procedural%20Synthesis-orange)](#-audio-system)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#-license)
 
-🚀 Features
+</div>
 
-✨ Core Gameplay
-- Classic **4×4 grid-based mechanics**
-- Tile merging & score tracking
-- Win condition at **2048 tile**
-- Game over detection system
+---
 
+## ✨ Features
 
-🎨 Advanced UI/UX
+### 🕹️ Core Gameplay
+- Classic 4×4 grid-based mechanics
+- Tile merging with score tracking
+- Win condition at the 2048 tile
+- Full game-over detection
 
-- Smooth tile movement animations  
-- Dynamic scaling & pulse effects  
-- Gradient backgrounds with glowing panels  
-- Interactive buttons (hover + press effects)  
+### 🎨 Advanced UI/UX
+- Smooth tile-movement animations
+- Dynamic scaling and pulse effects
+- Gradient backgrounds with glowing panels
+- Interactive buttons with hover and press effects
 
- 🔊 Sound Effects System
- 
-- Fully **procedural audio generation** (no external files)  
-- Sound feedback for:
-  - Move  
-  - Merge  
-  - Spawn  
-  - Win / Lose  
-  - Button clicks  
+### 🔊 Sound Effects System
+- Fully **procedural audio generation** — no external sound files
+- Distinct feedback for: move, merge, spawn, win/lose, and button clicks
 
+### 💥 Visual Effects
+- Particle explosion on tile merge
+- Floating score popups
+- Animated background motion
+- Win-celebration effects
 
-💥 Visual Effects
+### 📊 Score System
+- Real-time score tracking
+- Persistent best score, saved locally
 
-- Particle explosion on tile merge  
-- Floating score popups  
-- Animated background motion  
-- Win celebration effects  
+### 🖥️ Responsive Design
+- Resizable game window
+- Adaptive board scaling
 
-📊 Score System
-
-- Real-time score tracking  
-- Persistent **Best Score** (stored locally)  
-
-🖥️ Responsive Design
-- Resizable game window  
-- Adaptive board scaling  
-
-🛠️ Tech Stack
+## 🧩 Tech Stack
 
 | Category | Technology |
-|--------|------------|
+|---|---|
 | Language | Python |
 | Library | Pygame |
-| Architecture | OOP + Game Loop |
-| Audio | Procedural Synthesis |
+| Architecture | OOP + game loop |
+| Audio | Procedural synthesis |
 
-📂 Project Structure
+## 📁 Project Structure
 
-📦 2048-Game
- ┣ 📜 main.py
- ┣ 📜 best_score.txt
- ┗ 📜 README.md
+```
+2048-Game/
+├── 2048_gmae.py       Main game script
+├── best_score.txt      Persistent best-score storage
+└── README.md
+```
 
-▶️ How to Run
+## ▶️ How to Run
 
-1️⃣ Install Dependencies
+### 1 · Install dependencies
+
+```bash
 pip install pygame
+```
 
-2️⃣ Run the Game
-python main.py
+### 2 · Run the game
 
-🎮 Controls
+```bash
+python 2048_gmae.py
+```
 
-Key	Action
-⬅️	Move Left
-➡️	Move Right
-⬆️	Move Up
-⬇️	Move Down
-R	Restart Game
-Mouse	UI interactions
+## 🎮 Controls
 
-🧠 Game Logic Overview
+| Key | Action |
+|---|---|
+| ⬅️ | Move left |
+| ➡️ | Move right |
+| ⬆️ | Move up |
+| ⬇️ | Move down |
+| `R` | Restart game |
+| 🖱️ Mouse | UI interactions |
 
-The board is represented as a 2D grid (4×4)
-Tiles slide in the selected direction
-Matching tiles merge into double value
+## 🧠 Game Logic Overview
 
-After each move:
+- The board is represented as a 2D 4×4 grid
+- Tiles slide in the selected direction
+- Matching tiles merge into their combined value
+- After each move, a new tile (`2` or `4`) spawns at random
+- The game ends when there are no empty cells **and** no possible merges
 
-A new tile (2 or 4) spawns randomly
+## 🔊 Audio System
 
-Game ends when:
+Instead of external audio files, this project uses a **procedural sound engine** that generates effects on the fly using:
 
-No empty cells
-No possible merges
-🔊 Audio System
+- Sine waves
+- Frequency modulation
+- Exponential decay
 
-This project uses a procedural sound engine instead of external audio files.
+**Why it matters:** lightweight, fully self-contained, and technically more interesting than shipping static `.wav` files.
 
-It generates sound using:
+## 🎨 UI Highlights
 
-Sine waves
-Frequency modulation
-Exponential decay
+- Gradient background rendering
+- Glass-like tile design
+- Glow effects around the best score
+- Animated overlays for 🏆 win and ❌ game-over states
 
-✅ Benefits
+## 📈 Future Improvements
 
-Lightweight
-Fully self-contained
-Technically advanced
+- 🔢 Larger grid sizes (5×5, 6×6)
+- ↩️ Undo functionality
+- 🌐 Leaderboard system
+- 📱 Mobile/touch support
+- 🤖 AI auto-play mode
 
-🎨 UI Highlights
+## 📜 License
 
-Gradient background rendering
-Glass-like tile design
-Glow effects for best score
+This project is licensed under the [MIT License](LICENSE).
 
-Animated overlays:
-🏆 Win screen
-❌ Game Over screen
+## 🙌 Author
 
-📸 Screenshots
+**Himagiri Siddesh M**
 
-🎮 Gameplay UI
-High-performance 2048 game featuring glassmorphism UI, particle effects, and procedural animations.
-
-<img src="https://github.com/user-attachments/assets/a6de582b-b11d-4eaa-8a8f-c37f50b709de" width="400"/>
-
-❌ Game Over Screen
-
-Dynamic overlay with smooth transitions, layered UI effects, and persistent best score tracking.
-
-<img src="https://github.com/user-attachments/assets/2fd67373-a7b7-4d01-b8d5-1a7b958296e6" width="400"/>
-
-📈 Future Improvements
-
-🔢 Larger grid sizes (5×5, 6×6)
-↩️ Undo functionality
-🌐 Leaderboard system
-📱 Mobile/touch support
-🤖 AI auto-play mode
-
-📜 License
-
-This project is licensed under the MIT License.
-
-🙌 Author
-
-Himagiri Siddesh M
-
-⭐ Show Your Support
+## ⭐ Show Your Support
 
 If you like this project:
+⭐ star the repo · 🍴 fork it · 📢 share it
 
-⭐ Star the repo
-🍴 Fork it
-📢 Share it
+---
 
+<div align="center">
+Built with Python and Pygame
+</div>
